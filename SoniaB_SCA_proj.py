@@ -4,7 +4,7 @@ import re
 input_text = input("Type the statement to remove profanity from.")
 
 # States the profanity to check for
-profanity_record = "fuck|shit|bitch"
+profanity_record = "fuck|shit|bitch|ass"
 
 # Removes all the profanity in "input_text"
 profanity_removed = re.sub(profanity_record, "", input_text)
